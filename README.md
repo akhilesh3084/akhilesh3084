@@ -89,13 +89,13 @@
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=akhilesh3084&show_icons=true&hide_border=true&rank_icon=github"
+    src="./profile/stats.svg"
     height="180"
     alt="GitHub Stats"
   />
 
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=akhilesh3084&layout=compact&langs_count=8&hide_border=true"
+    src="./profile/top-langs.svg"
     height="180"
     alt="Top Languages"
   />
