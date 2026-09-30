@@ -100,14 +100,6 @@
   />
 </p>
 
-<p align="center">
-  <img
-    src="./profile/activity-stats.svg"
-    width="95%"
-    alt="GitHub Activity Stats"
-  />
-</p>
-
 ---
 
 ## 🔥 Contribution Streak
