@@ -301,16 +301,6 @@ jobs:
             Most Used Languages
           </text>
 
-          <text
-            x="425"
-            y="61"
-            text-anchor="middle"
-            fill="#8b949e"
-            font-size="13"
-            font-family="Arial, sans-serif"
-          >
-            Across repositories you have contributed to
-          </text>
           '''
 
           # Language bar
