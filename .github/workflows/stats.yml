@@ -40,4 +40,5 @@ jobs:
           git add profile/*.svg
 
           git commit -m "Update GitHub stats" || exit 0
+          git pull --rebase origin main
           git push
