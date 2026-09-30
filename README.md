@@ -85,7 +85,7 @@
 
 ---
 
-## 📊 GitHub Analytics
+<h2>📊 GitHub Analytics</h2>
 
 <p align="center">
   <img
@@ -93,7 +93,6 @@
     height="180"
     alt="GitHub Stats"
   />
-
   <img
     src="./profile/top-langs.svg"
     height="180"
@@ -114,29 +113,31 @@
 
 ---
 
-## 📈 Contribution Activity
+<h2>📈 Contribution Activity</h2>
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=akhilesh3084&theme=github-dark&hide_border=true&area=true"
-    alt="Contribution Activity Graph"
+    src="./profile/activity.svg"
+    alt="GitHub Contribution Activity"
+    width="95%"
   />
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+<h2>🏆 GitHub Trophies</h2>
 
 <p align="center">
   <img
-    src="https://github-profile-trophy.vercel.app/?username=akhilesh3084&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=2&column=6"
+    src="./profile/trophy.svg"
     alt="GitHub Trophies"
+    width="95%"
   />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+<h2>🐍 Contribution Snake</h2>
 
 <p align="center">
   <picture>
@@ -149,8 +150,9 @@
       srcset="https://raw.githubusercontent.com/akhilesh3084/akhilesh3084/output/github-contribution-grid-snake.svg"
     />
     <img
-      alt="GitHub Contribution Snake"
       src="https://raw.githubusercontent.com/akhilesh3084/akhilesh3084/output/github-contribution-grid-snake.svg"
+      alt="GitHub Contribution Snake"
+      width="95%"
     />
   </picture>
 </p>
