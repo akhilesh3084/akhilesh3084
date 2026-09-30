@@ -1,0 +1,363 @@
+name: Update GitHub Languages
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Get repositories I contributed to
+        env:
+          GH_TOKEN: ${{ secrets.PRIVATE_STATS_TOKEN }}
+        run: |
+          gh api graphql \
+            -f query='
+            query($from: DateTime!) {
+              viewer {
+                contributionsCollection(from: $from) {
+
+                  commitContributionsByRepository(
+                    maxRepositories: 100
+                  ) {
+                    repository {
+                      nameWithOwner
+                      languages(
+                        first: 10
+                        orderBy: {
+                          field: SIZE
+                          direction: DESC
+                        }
+                      ) {
+                        edges {
+                          size
+                          node {
+                            name
+                            color
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                  pullRequestContributionsByRepository(
+                    maxRepositories: 100
+                  ) {
+                    repository {
+                      nameWithOwner
+                      languages(
+                        first: 10
+                        orderBy: {
+                          field: SIZE
+                          direction: DESC
+                        }
+                      ) {
+                        edges {
+                          size
+                          node {
+                            name
+                            color
+                          }
+                        }
+                      }
+                    }
+                  }
+
+                }
+              }
+            }' \
+            -F from="2023-01-01T00:00:00Z" \
+            > language-data.json
+
+      - name: Calculate languages
+        run: |
+          python3 <<'PY'
+          import json
+          from collections import defaultdict
+
+          with open("language-data.json") as f:
+              data = json.load(f)
+
+          collections = data["data"]["viewer"]["contributionsCollection"]
+
+          repositories = {}
+
+          # Repositories where I made commits
+          for item in collections.get(
+              "commitContributionsByRepository", []
+          ):
+              repo = item["repository"]
+              repositories[repo["nameWithOwner"]] = repo
+
+          # Repositories where I opened PRs
+          for item in collections.get(
+              "pullRequestContributionsByRepository", []
+          ):
+              repo = item["repository"]
+              repositories[repo["nameWithOwner"]] = repo
+
+          languages = defaultdict(int)
+          colors = {}
+
+          for repo in repositories.values():
+
+              for edge in repo["languages"]["edges"]:
+
+                  language = edge["node"]["name"]
+                  size = edge["size"]
+
+                  languages[language] += size
+
+                  if edge["node"]["color"]:
+                      colors[language] = edge["node"]["color"]
+
+          languages = dict(
+              sorted(
+                  languages.items(),
+                  key=lambda x: x[1],
+                  reverse=True
+              )
+          )
+
+          total = sum(languages.values())
+
+          print("Repositories:")
+          for repo in sorted(repositories):
+              print(" -", repo)
+
+          print("\nLanguages:")
+
+          for language, size in languages.items():
+
+              percentage = (
+                  size / total * 100
+                  if total
+                  else 0
+              )
+
+              print(
+                  f"{language}: "
+                  f"{percentage:.2f}%"
+              )
+
+          result = {
+              "repositories": sorted(
+                  repositories.keys()
+              ),
+              "languages": [
+                  {
+                      "name": language,
+                      "size": size,
+                      "percentage": round(
+                          size / total * 100,
+                          2
+                      ) if total else 0,
+                      "color": colors.get(language)
+                  }
+                  for language, size in languages.items()
+              ]
+          }
+
+          with open(
+              "languages.json",
+              "w"
+          ) as f:
+              json.dump(
+                  result,
+                  f,
+                  indent=2
+              )
+          PY
+
+      - name: Generate language card
+        run: |
+          python3 <<'PY'
+          import json
+          import html
+          import os
+
+          with open("languages.json") as f:
+              data = json.load(f)
+
+          languages = data["languages"][:8]
+
+          width = 850
+          height = 260
+
+          svg = f'''
+          <svg
+            width="{width}"
+            height="{height}"
+            viewBox="0 0 {width} {height}"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+
+            <rect
+              width="850"
+              height="260"
+              rx="12"
+              fill="#0d1117"
+            />
+
+            <text
+              x="425"
+              y="38"
+              text-anchor="middle"
+              fill="#f0f6fc"
+              font-size="22"
+              font-family="Arial, sans-serif"
+              font-weight="600"
+            >
+              Most Used Languages
+            </text>
+
+            <text
+              x="425"
+              y="61"
+              text-anchor="middle"
+              fill="#8b949e"
+              font-size="13"
+              font-family="Arial, sans-serif"
+            >
+              Across repositories you have contributed to
+            </text>
+          '''
+
+          # Progress bar
+
+          x = 45
+          y = 82
+
+          bar_width = 760
+          bar_height = 18
+
+          current_x = x
+
+          for item in languages:
+
+              percentage = item["percentage"]
+
+              segment_width = (
+                  bar_width *
+                  percentage /
+                  100
+              )
+
+              color = (
+                  item["color"]
+                  or "#8b949e"
+              )
+
+              svg += f'''
+              <rect
+                x="{current_x:.2f}"
+                y="{y}"
+                width="{segment_width:.2f}"
+                height="{bar_height}"
+                fill="{color}"
+              />
+              '''
+
+              current_x += segment_width
+
+          # Language positions
+
+          positions = [
+              (55, 145),
+              (285, 145),
+              (515, 145),
+
+              (55, 190),
+              (285, 190),
+              (515, 190),
+
+              (55, 235),
+              (285, 235)
+          ]
+
+          for item, (x, y) in zip(
+              languages,
+              positions
+          ):
+
+              name = html.escape(
+                  item["name"]
+              )
+
+              percentage = item[
+                  "percentage"
+              ]
+
+              color = (
+                  item["color"]
+                  or "#8b949e"
+              )
+
+              svg += f'''
+              <circle
+                cx="{x}"
+                cy="{y - 5}"
+                r="5"
+                fill="{color}"
+              />
+
+              <text
+                x="{x + 14}"
+                y="{y}"
+                fill="#f0f6fc"
+                font-size="14"
+                font-family="Arial, sans-serif"
+              >
+                {name}
+              </text>
+
+              <text
+                x="{x + 145}"
+                y="{y}"
+                text-anchor="end"
+                fill="#8b949e"
+                font-size="13"
+                font-family="Arial, sans-serif"
+              >
+                {percentage:.2f}%
+              </text>
+              '''
+
+          svg += '''
+          </svg>
+          '''
+
+          os.makedirs(
+              "profile",
+              exist_ok=True
+          )
+
+          with open(
+              "profile/languages.svg",
+              "w"
+          ) as f:
+              f.write(svg)
+          PY
+
+      - name: Commit generated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/languages.svg
+
+          git commit \
+            -m "Update GitHub language stats" \
+            || exit 0
+
+          git pull --rebase origin main
+          git push
