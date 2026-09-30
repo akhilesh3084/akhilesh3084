@@ -28,17 +28,6 @@ jobs:
           token: ${{ secrets.PRIVATE_STATS_TOKEN }}
 
       # -------------------------
-      # Top Languages
-      # -------------------------
-      - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true
-          path: profile/top-langs.svg
-          token: ${{ secrets.PRIVATE_STATS_TOKEN }}
-
-      # -------------------------
       # Activity Graph
       # -------------------------
       - name: Generate Activity Graph
