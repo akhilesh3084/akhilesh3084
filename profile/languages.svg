@@ -6,34 +6,322 @@
   xmlns="http://www.w3.org/2000/svg"
 >
 
-  <rect
-    width="850"
-    height="260"
-    rx="12"
-    fill="#0d1117"
-  />
+<rect
+  width="850"
+  height="260"
+  rx="12"
+  fill="#0d1117"
+/>
 
-  <text
-    x="425"
-    y="38"
-    text-anchor="middle"
-    fill="#f0f6fc"
-    font-size="22"
-    font-family="Arial, sans-serif"
-    font-weight="600"
-  >
-    Most Used Languages
-  </text>
+<text
+  x="425"
+  y="38"
+  text-anchor="middle"
+  fill="#f0f6fc"
+  font-size="22"
+  font-family="Arial, sans-serif"
+  font-weight="600"
+>
+  Most Used Languages
+</text>
 
-  <text
-    x="425"
-    y="61"
-    text-anchor="middle"
-    fill="#8b949e"
-    font-size="13"
-    font-family="Arial, sans-serif"
-  >
-    Across repositories you have contributed to
-  </text>
+<text
+  x="425"
+  y="61"
+  text-anchor="middle"
+  fill="#8b949e"
+  font-size="13"
+  font-family="Arial, sans-serif"
+>
+  Across repositories you have contributed to
+</text>
 
+    <rect
+      x="45"
+      y="82"
+      width="367.84"
+      height="18"
+      fill="#00B4AB"
+    />
+    
+    <rect
+      x="412.84"
+      y="82"
+      width="347.244"
+      height="18"
+      fill="#3178c6"
+    />
+    
+    <rect
+      x="760.0840000000001"
+      y="82"
+      width="11.172"
+      height="18"
+      fill="#f34b7d"
+    />
+    
+    <rect
+      x="771.2560000000001"
+      y="82"
+      width="9.652000000000001"
+      height="18"
+      fill="#555555"
+    />
+    
+    <rect
+      x="780.9080000000001"
+      y="82"
+      width="8.968"
+      height="18"
+      fill="#e34c26"
+    />
+    
+    <rect
+      x="789.8760000000001"
+      y="82"
+      width="6.156000000000001"
+      height="18"
+      fill="#DA3434"
+    />
+    
+    <rect
+      x="796.032"
+      y="82"
+      width="3.2680000000000002"
+      height="18"
+      fill="#b07219"
+    />
+    
+    <rect
+      x="799.3000000000001"
+      y="82"
+      width="2.356"
+      height="18"
+      fill="#f1e05a"
+    />
+    
+    <circle
+      cx="55"
+      cy="140"
+      r="5"
+      fill="#00B4AB"
+    />
+
+    <text
+      x="69"
+      y="145"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      Dart
+    </text>
+
+    <text
+      x="200"
+      y="145"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      48.40%
+    </text>
+    
+    <circle
+      cx="285"
+      cy="140"
+      r="5"
+      fill="#3178c6"
+    />
+
+    <text
+      x="299"
+      y="145"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      TypeScript
+    </text>
+
+    <text
+      x="430"
+      y="145"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      45.69%
+    </text>
+    
+    <circle
+      cx="515"
+      cy="140"
+      r="5"
+      fill="#f34b7d"
+    />
+
+    <text
+      x="529"
+      y="145"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      C++
+    </text>
+
+    <text
+      x="660"
+      y="145"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      1.47%
+    </text>
+    
+    <circle
+      cx="55"
+      cy="185"
+      r="5"
+      fill="#555555"
+    />
+
+    <text
+      x="69"
+      y="190"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      C
+    </text>
+
+    <text
+      x="200"
+      y="190"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      1.27%
+    </text>
+    
+    <circle
+      cx="285"
+      cy="185"
+      r="5"
+      fill="#e34c26"
+    />
+
+    <text
+      x="299"
+      y="190"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      HTML
+    </text>
+
+    <text
+      x="430"
+      y="190"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      1.18%
+    </text>
+    
+    <circle
+      cx="515"
+      cy="185"
+      r="5"
+      fill="#DA3434"
+    />
+
+    <text
+      x="529"
+      y="190"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      CMake
+    </text>
+
+    <text
+      x="660"
+      y="190"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      0.81%
+    </text>
+    
+    <circle
+      cx="55"
+      cy="230"
+      r="5"
+      fill="#b07219"
+    />
+
+    <text
+      x="69"
+      y="235"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      Java
+    </text>
+
+    <text
+      x="200"
+      y="235"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      0.43%
+    </text>
+    
+    <circle
+      cx="285"
+      cy="230"
+      r="5"
+      fill="#f1e05a"
+    />
+
+    <text
+      x="299"
+      y="235"
+      fill="#f0f6fc"
+      font-size="14"
+      font-family="Arial, sans-serif"
+    >
+      JavaScript
+    </text>
+
+    <text
+      x="430"
+      y="235"
+      text-anchor="end"
+      fill="#8b949e"
+      font-size="13"
+      font-family="Arial, sans-serif"
+    >
+      0.31%
+    </text>
+    
 </svg>

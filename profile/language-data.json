@@ -1,0 +1,134 @@
+{
+  "repositories": [
+    "Local-Street/localstreet-backend-analytics",
+    "Local-Street/localstreet-backend-common",
+    "Local-Street/localstreet-backend-notification",
+    "Local-Street/localstreet-backend-order",
+    "Local-Street/localstreet-backend-search",
+    "Local-Street/localstreet-backend-shop",
+    "Local-Street/localstreet-backend-user",
+    "Local-Street/localstreet-cron-backend",
+    "Local-Street/localstreet-docs",
+    "Local-Street/localstreet-executive",
+    "Local-Street/localstreet-gateway-backend",
+    "Local-Street/localstreet_app",
+    "Local-Street/localstreet_delivery",
+    "akhilesh3084/Disaster_Management_Hackfest_Project",
+    "akhilesh3084/Java-Programming",
+    "akhilesh3084/SQL-Programming",
+    "akhilesh3084/Training-Class-Problems",
+    "akhilesh3084/akhilesh3084",
+    "akhilesh3084/demo",
+    "akhilesh3084/project2"
+  ],
+  "languages": [
+    {
+      "name": "Dart",
+      "size": 11469349,
+      "percentage": 48.4,
+      "color": "#00B4AB"
+    },
+    {
+      "name": "TypeScript",
+      "size": 10827875,
+      "percentage": 45.69,
+      "color": "#3178c6"
+    },
+    {
+      "name": "C++",
+      "size": 348336,
+      "percentage": 1.47,
+      "color": "#f34b7d"
+    },
+    {
+      "name": "C",
+      "size": 301086,
+      "percentage": 1.27,
+      "color": "#555555"
+    },
+    {
+      "name": "HTML",
+      "size": 279521,
+      "percentage": 1.18,
+      "color": "#e34c26"
+    },
+    {
+      "name": "CMake",
+      "size": 192282,
+      "percentage": 0.81,
+      "color": "#DA3434"
+    },
+    {
+      "name": "Java",
+      "size": 101568,
+      "percentage": 0.43,
+      "color": "#b07219"
+    },
+    {
+      "name": "JavaScript",
+      "size": 74508,
+      "percentage": 0.31,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Kotlin",
+      "size": 24702,
+      "percentage": 0.1,
+      "color": "#A97BFF"
+    },
+    {
+      "name": "CSS",
+      "size": 23052,
+      "percentage": 0.1,
+      "color": "#663399"
+    },
+    {
+      "name": "Swift",
+      "size": 15455,
+      "percentage": 0.07,
+      "color": "#F05138"
+    },
+    {
+      "name": "PLpgSQL",
+      "size": 11380,
+      "percentage": 0.05,
+      "color": "#336790"
+    },
+    {
+      "name": "Ruby",
+      "size": 7669,
+      "percentage": 0.03,
+      "color": "#701516"
+    },
+    {
+      "name": "Shell",
+      "size": 7594,
+      "percentage": 0.03,
+      "color": "#89e051"
+    },
+    {
+      "name": "EJS",
+      "size": 6843,
+      "percentage": 0.03,
+      "color": "#a91e50"
+    },
+    {
+      "name": "Dockerfile",
+      "size": 5753,
+      "percentage": 0.02,
+      "color": "#384d54"
+    },
+    {
+      "name": "PowerShell",
+      "size": 707,
+      "percentage": 0.0,
+      "color": "#012456"
+    },
+    {
+      "name": "Objective-C",
+      "size": 76,
+      "percentage": 0.0,
+      "color": "#438eff"
+    }
+  ]
+}
