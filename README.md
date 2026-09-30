@@ -53,10 +53,37 @@
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis" />
 </p>
 
-### APIs & Architecture
+<h3>APIs & Architecture</h3>
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=graphql" />
+<p>
+  <img
+    src="https://skillicons.dev/icons?i=graphql"
+    width="48"
+    alt="GraphQL"
+  />
+  <img
+    src="https://skillicons.dev/icons?i=grpc"
+    width="48"
+    alt="gRPC"
+  />
+</p>
+
+<p>
+  <img
+    src="https://img.shields.io/badge/REST%20APIs-02569B?style=for-the-badge&logo=fastapi&logoColor=white"
+    height="28"
+    alt="REST APIs"
+  />
+  <img
+    src="https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge&logo=buffer&logoColor=white"
+    height="28"
+    alt="Microservices"
+  />
+  <img
+    src="https://img.shields.io/badge/API%20Design-6C63FF?style=for-the-badge"
+    height="28"
+    alt="API Design"
+  />
 </p>
 
 <p>
