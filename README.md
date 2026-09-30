@@ -93,11 +93,12 @@
     height="180"
     alt="GitHub Stats"
   />
+  
   <img
-    src="./profile/top-langs.svg"
-    height="180"
-    alt="Top Languages"
-  />
+  src="./profile/languages.svg"
+  height="260"
+  alt="Most Used Languages"
+/>
 </p>
 
 ---
