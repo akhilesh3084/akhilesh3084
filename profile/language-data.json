@@ -23,27 +23,27 @@
   ],
   "languages": [
     {
-      "name": "Dart",
-      "size": 11469349,
-      "percentage": 47.32,
-      "color": "#00B4AB"
+      "name": "TypeScript",
+      "size": 11488122,
+      "percentage": 47.12,
+      "color": "#3178c6"
     },
     {
-      "name": "TypeScript",
-      "size": 11369954,
-      "percentage": 46.91,
-      "color": "#3178c6"
+      "name": "Dart",
+      "size": 11471148,
+      "percentage": 47.05,
+      "color": "#00B4AB"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.44,
+      "percentage": 1.43,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.24,
+      "percentage": 1.23,
       "color": "#555555"
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "name": "JavaScript",
-      "size": 74508,
-      "percentage": 0.31,
+      "size": 96092,
+      "percentage": 0.39,
       "color": "#f1e05a"
     },
     {
@@ -79,7 +79,7 @@
     {
       "name": "CSS",
       "size": 23052,
-      "percentage": 0.1,
+      "percentage": 0.09,
       "color": "#663399"
     },
     {
