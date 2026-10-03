@@ -23,51 +23,51 @@
   ],
   "languages": [
     {
-      "name": "TypeScript",
-      "size": 11488122,
-      "percentage": 47.12,
-      "color": "#3178c6"
-    },
-    {
       "name": "Dart",
       "size": 11471148,
-      "percentage": 47.05,
+      "percentage": 48.12,
       "color": "#00B4AB"
+    },
+    {
+      "name": "TypeScript",
+      "size": 10946075,
+      "percentage": 45.92,
+      "color": "#3178c6"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.43,
+      "percentage": 1.46,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.23,
+      "percentage": 1.26,
       "color": "#555555"
     },
     {
       "name": "HTML",
       "size": 279521,
-      "percentage": 1.15,
+      "percentage": 1.17,
       "color": "#e34c26"
     },
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.79,
+      "percentage": 0.81,
       "color": "#DA3434"
     },
     {
       "name": "Java",
       "size": 101568,
-      "percentage": 0.42,
+      "percentage": 0.43,
       "color": "#b07219"
     },
     {
       "name": "JavaScript",
       "size": 96092,
-      "percentage": 0.39,
+      "percentage": 0.4,
       "color": "#f1e05a"
     },
     {
@@ -79,7 +79,7 @@
     {
       "name": "CSS",
       "size": 23052,
-      "percentage": 0.09,
+      "percentage": 0.1,
       "color": "#663399"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "name": "Dockerfile",
-      "size": 5753,
+      "size": 5796,
       "percentage": 0.02,
       "color": "#384d54"
     },

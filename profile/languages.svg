@@ -29,63 +29,63 @@
     <rect
       x="45"
       y="82"
-      width="358.11199999999997"
-      height="18"
-      fill="#3178c6"
-    />
-    
-    <rect
-      x="403.11199999999997"
-      y="82"
-      width="357.58"
+      width="365.712"
       height="18"
       fill="#00B4AB"
     />
     
     <rect
-      x="760.692"
+      x="410.712"
       y="82"
-      width="10.868"
+      width="348.992"
+      height="18"
+      fill="#3178c6"
+    />
+    
+    <rect
+      x="759.704"
+      y="82"
+      width="11.095999999999998"
       height="18"
       fill="#f34b7d"
     />
     
     <rect
-      x="771.5600000000001"
+      x="770.8"
       y="82"
-      width="9.347999999999999"
+      width="9.576"
       height="18"
       fill="#555555"
     />
     
     <rect
-      x="780.908"
+      x="780.376"
       y="82"
-      width="8.739999999999998"
+      width="8.892"
       height="18"
       fill="#e34c26"
     />
     
     <rect
-      x="789.648"
+      x="789.268"
       y="82"
-      width="6.004"
+      width="6.156000000000001"
       height="18"
       fill="#DA3434"
     />
     
     <rect
-      x="795.652"
+      x="795.424"
       y="82"
-      width="3.1919999999999997"
+      width="3.2680000000000002"
       height="18"
       fill="#b07219"
     />
     
     <rect
-      x="798.844"
+      x="798.692"
       y="82"
-      width="2.9640000000000004"
+      width="3.04"
       height="18"
       fill="#f1e05a"
     />
@@ -94,7 +94,7 @@
       cx="55"
       cy="140"
       r="5"
-      fill="#3178c6"
+      fill="#00B4AB"
     />
 
     <text
@@ -104,7 +104,7 @@
       font-size="14"
       font-family="Arial, sans-serif"
     >
-      TypeScript
+      Dart
     </text>
 
     <text
@@ -115,14 +115,14 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      47.12%
+      48.12%
     </text>
     
     <circle
       cx="285"
       cy="140"
       r="5"
-      fill="#00B4AB"
+      fill="#3178c6"
     />
 
     <text
@@ -132,7 +132,7 @@
       font-size="14"
       font-family="Arial, sans-serif"
     >
-      Dart
+      TypeScript
     </text>
 
     <text
@@ -143,7 +143,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      47.05%
+      45.92%
     </text>
     
     <circle
@@ -171,7 +171,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.43%
+      1.46%
     </text>
     
     <circle
@@ -199,7 +199,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.23%
+      1.26%
     </text>
     
     <circle
@@ -227,7 +227,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.15%
+      1.17%
     </text>
     
     <circle
@@ -255,7 +255,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.79%
+      0.81%
     </text>
     
     <circle
@@ -283,7 +283,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.42%
+      0.43%
     </text>
     
     <circle
@@ -311,7 +311,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.39%
+      0.40%
     </text>
     
 </svg>
