@@ -25,49 +25,49 @@
     {
       "name": "Dart",
       "size": 11471148,
-      "percentage": 48.12,
+      "percentage": 47.63,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 10946075,
-      "percentage": 45.92,
+      "size": 11189623,
+      "percentage": 46.46,
       "color": "#3178c6"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.46,
+      "percentage": 1.45,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.26,
+      "percentage": 1.25,
       "color": "#555555"
     },
     {
       "name": "HTML",
       "size": 279521,
-      "percentage": 1.17,
+      "percentage": 1.16,
       "color": "#e34c26"
     },
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.81,
+      "percentage": 0.8,
       "color": "#DA3434"
     },
     {
       "name": "Java",
       "size": 101568,
-      "percentage": 0.43,
+      "percentage": 0.42,
       "color": "#b07219"
     },
     {
       "name": "JavaScript",
-      "size": 96092,
-      "percentage": 0.4,
+      "size": 98607,
+      "percentage": 0.41,
       "color": "#f1e05a"
     },
     {
@@ -95,16 +95,16 @@
       "color": "#336790"
     },
     {
+      "name": "Shell",
+      "size": 8311,
+      "percentage": 0.03,
+      "color": "#89e051"
+    },
+    {
       "name": "Ruby",
       "size": 7669,
       "percentage": 0.03,
       "color": "#701516"
-    },
-    {
-      "name": "Shell",
-      "size": 7594,
-      "percentage": 0.03,
-      "color": "#89e051"
     },
     {
       "name": "EJS",
