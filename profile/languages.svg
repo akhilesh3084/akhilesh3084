@@ -29,63 +29,63 @@
     <rect
       x="45"
       y="82"
-      width="361.98800000000006"
+      width="371.79200000000003"
       height="18"
       fill="#00B4AB"
     />
     
     <rect
-      x="406.98800000000006"
+      x="416.79200000000003"
       y="82"
-      width="353.096"
+      width="344.356"
       height="18"
       fill="#3178c6"
     />
     
     <rect
-      x="760.0840000000001"
+      x="761.148"
       y="82"
-      width="11.02"
+      width="10.716"
       height="18"
       fill="#f34b7d"
     />
     
     <rect
-      x="771.104"
+      x="771.864"
       y="82"
-      width="9.5"
+      width="9.271999999999998"
       height="18"
       fill="#555555"
     />
     
     <rect
-      x="780.604"
+      x="781.1360000000001"
       y="82"
-      width="8.815999999999999"
+      width="8.588"
       height="18"
       fill="#e34c26"
     />
     
     <rect
-      x="789.4200000000001"
+      x="789.724"
       y="82"
-      width="6.08"
+      width="5.928000000000001"
       height="18"
       fill="#DA3434"
     />
     
     <rect
-      x="795.5000000000001"
+      x="795.652"
       y="82"
-      width="3.1919999999999997"
+      width="3.1159999999999997"
       height="18"
       fill="#b07219"
     />
     
     <rect
-      x="798.6920000000001"
+      x="798.768"
       y="82"
-      width="3.1159999999999997"
+      width="3.04"
       height="18"
       fill="#f1e05a"
     />
@@ -115,7 +115,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      47.63%
+      48.92%
     </text>
     
     <circle
@@ -143,7 +143,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      46.46%
+      45.31%
     </text>
     
     <circle
@@ -171,7 +171,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.45%
+      1.41%
     </text>
     
     <circle
@@ -199,7 +199,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.25%
+      1.22%
     </text>
     
     <circle
@@ -227,7 +227,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.16%
+      1.13%
     </text>
     
     <circle
@@ -255,7 +255,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.80%
+      0.78%
     </text>
     
     <circle
@@ -283,7 +283,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.42%
+      0.41%
     </text>
     
     <circle
@@ -311,7 +311,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.41%
+      0.40%
     </text>
     
 </svg>
