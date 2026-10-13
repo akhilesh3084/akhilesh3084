@@ -24,50 +24,50 @@
   "languages": [
     {
       "name": "Dart",
-      "size": 12096474,
-      "percentage": 48.92,
+      "size": 12830940,
+      "percentage": 49.74,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 11205967,
-      "percentage": 45.32,
+      "size": 11536663,
+      "percentage": 44.72,
       "color": "#3178c6"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.41,
+      "percentage": 1.35,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.22,
+      "percentage": 1.17,
       "color": "#555555"
     },
     {
       "name": "HTML",
       "size": 279524,
-      "percentage": 1.13,
+      "percentage": 1.08,
       "color": "#e34c26"
     },
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.78,
+      "percentage": 0.75,
       "color": "#DA3434"
     },
     {
       "name": "Java",
       "size": 101568,
-      "percentage": 0.41,
+      "percentage": 0.39,
       "color": "#b07219"
     },
     {
       "name": "JavaScript",
-      "size": 98607,
-      "percentage": 0.4,
+      "size": 101197,
+      "percentage": 0.39,
       "color": "#f1e05a"
     },
     {
@@ -91,13 +91,13 @@
     {
       "name": "PLpgSQL",
       "size": 11380,
-      "percentage": 0.05,
+      "percentage": 0.04,
       "color": "#336790"
     },
     {
       "name": "Shell",
-      "size": 8311,
-      "percentage": 0.03,
+      "size": 9750,
+      "percentage": 0.04,
       "color": "#89e051"
     },
     {
