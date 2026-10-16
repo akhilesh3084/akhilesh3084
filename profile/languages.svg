@@ -29,21 +29,21 @@
     <rect
       x="45"
       y="82"
-      width="378.024"
+      width="377.492"
       height="18"
       fill="#00B4AB"
     />
     
     <rect
-      x="423.024"
+      x="422.492"
       y="82"
-      width="339.87199999999996"
+      width="340.48"
       height="18"
       fill="#3178c6"
     />
     
     <rect
-      x="762.896"
+      x="762.972"
       y="82"
       width="10.26"
       height="18"
@@ -51,7 +51,7 @@
     />
     
     <rect
-      x="773.156"
+      x="773.232"
       y="82"
       width="8.892"
       height="18"
@@ -59,7 +59,7 @@
     />
     
     <rect
-      x="782.048"
+      x="782.124"
       y="82"
       width="8.208"
       height="18"
@@ -67,9 +67,9 @@
     />
     
     <rect
-      x="790.256"
+      x="790.332"
       y="82"
-      width="5.7"
+      width="5.624"
       height="18"
       fill="#DA3434"
     />
@@ -115,7 +115,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      49.74%
+      49.67%
     </text>
     
     <circle
@@ -143,7 +143,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      44.72%
+      44.80%
     </text>
     
     <circle
@@ -255,7 +255,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      0.75%
+      0.74%
     </text>
     
     <circle

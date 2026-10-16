@@ -25,13 +25,13 @@
     {
       "name": "Dart",
       "size": 12830940,
-      "percentage": 49.74,
+      "percentage": 49.67,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 11536663,
-      "percentage": 44.72,
+      "size": 11572783,
+      "percentage": 44.8,
       "color": "#3178c6"
     },
     {
@@ -55,7 +55,7 @@
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.75,
+      "percentage": 0.74,
       "color": "#DA3434"
     },
     {
