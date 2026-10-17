@@ -25,13 +25,13 @@
     {
       "name": "Dart",
       "size": 12830940,
-      "percentage": 49.67,
+      "percentage": 49.55,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 11572783,
-      "percentage": 44.8,
+      "size": 11635018,
+      "percentage": 44.93,
       "color": "#3178c6"
     },
     {
@@ -43,7 +43,7 @@
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.17,
+      "percentage": 1.16,
       "color": "#555555"
     },
     {
