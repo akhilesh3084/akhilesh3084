@@ -25,38 +25,38 @@
   "languages": [
     {
       "name": "Dart",
-      "size": 12830940,
-      "percentage": 49.16,
+      "size": 13014528,
+      "percentage": 49.45,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 11802027,
-      "percentage": 45.22,
+      "size": 11841790,
+      "percentage": 44.99,
       "color": "#3178c6"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.33,
+      "percentage": 1.32,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.15,
+      "percentage": 1.14,
       "color": "#555555"
     },
     {
       "name": "HTML",
       "size": 280214,
-      "percentage": 1.07,
+      "percentage": 1.06,
       "color": "#e34c26"
     },
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.74,
+      "percentage": 0.73,
       "color": "#DA3434"
     },
     {
@@ -67,8 +67,8 @@
     },
     {
       "name": "JavaScript",
-      "size": 101197,
-      "percentage": 0.39,
+      "size": 99393,
+      "percentage": 0.38,
       "color": "#f1e05a"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "name": "Swift",
-      "size": 15455,
+      "size": 15449,
       "percentage": 0.06,
       "color": "#F05138"
     },
