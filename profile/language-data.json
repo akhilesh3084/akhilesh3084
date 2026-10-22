@@ -1,6 +1,7 @@
 {
   "repositories": [
     "Local-Street/localstreet-backend-analytics",
+    "Local-Street/localstreet-backend-auth",
     "Local-Street/localstreet-backend-common",
     "Local-Street/localstreet-backend-notification",
     "Local-Street/localstreet-backend-order",
@@ -25,51 +26,51 @@
   "languages": [
     {
       "name": "Dart",
-      "size": 13014528,
-      "percentage": 49.45,
+      "size": 13043385,
+      "percentage": 48.88,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 11841790,
-      "percentage": 44.99,
+      "size": 12172559,
+      "percentage": 45.62,
       "color": "#3178c6"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.32,
+      "percentage": 1.31,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.14,
+      "percentage": 1.13,
       "color": "#555555"
     },
     {
       "name": "HTML",
       "size": 280214,
-      "percentage": 1.06,
+      "percentage": 1.05,
       "color": "#e34c26"
     },
     {
       "name": "CMake",
       "size": 192282,
-      "percentage": 0.73,
+      "percentage": 0.72,
       "color": "#DA3434"
+    },
+    {
+      "name": "JavaScript",
+      "size": 101676,
+      "percentage": 0.38,
+      "color": "#f1e05a"
     },
     {
       "name": "Java",
       "size": 101568,
-      "percentage": 0.39,
-      "color": "#b07219"
-    },
-    {
-      "name": "JavaScript",
-      "size": 99393,
       "percentage": 0.38,
-      "color": "#f1e05a"
+      "color": "#b07219"
     },
     {
       "name": "CSS",
@@ -97,21 +98,21 @@
     },
     {
       "name": "Shell",
-      "size": 9750,
+      "size": 11051,
       "percentage": 0.04,
       "color": "#89e051"
+    },
+    {
+      "name": "Dockerfile",
+      "size": 8273,
+      "percentage": 0.03,
+      "color": "#384d54"
     },
     {
       "name": "Ruby",
       "size": 7669,
       "percentage": 0.03,
       "color": "#701516"
-    },
-    {
-      "name": "Dockerfile",
-      "size": 7488,
-      "percentage": 0.03,
-      "color": "#384d54"
     },
     {
       "name": "EJS",
