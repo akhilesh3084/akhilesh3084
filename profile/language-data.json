@@ -26,14 +26,14 @@
   "languages": [
     {
       "name": "Dart",
-      "size": 13043385,
-      "percentage": 48.86,
+      "size": 13045389,
+      "percentage": 48.83,
       "color": "#00B4AB"
     },
     {
       "name": "TypeScript",
-      "size": 12185675,
-      "percentage": 45.64,
+      "size": 12202975,
+      "percentage": 45.68,
       "color": "#3178c6"
     },
     {
