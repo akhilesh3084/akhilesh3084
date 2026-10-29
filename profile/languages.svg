@@ -29,21 +29,21 @@
     <rect
       x="45"
       y="82"
-      width="371.10799999999995"
+      width="371.412"
       height="18"
       fill="#00B4AB"
     />
     
     <rect
-      x="416.10799999999995"
+      x="416.412"
       y="82"
-      width="347.168"
+      width="346.94"
       height="18"
       fill="#3178c6"
     />
     
     <rect
-      x="763.276"
+      x="763.352"
       y="82"
       width="9.88"
       height="18"
@@ -51,9 +51,9 @@
     />
     
     <rect
-      x="773.156"
+      x="773.232"
       y="82"
-      width="8.588"
+      width="8.512"
       height="18"
       fill="#555555"
     />
@@ -115,7 +115,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      48.83%
+      48.87%
     </text>
     
     <circle
@@ -143,7 +143,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      45.68%
+      45.65%
     </text>
     
     <circle
@@ -199,7 +199,7 @@
       font-size="13"
       font-family="Arial, sans-serif"
     >
-      1.13%
+      1.12%
     </text>
     
     <circle
