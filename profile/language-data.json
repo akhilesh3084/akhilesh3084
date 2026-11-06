@@ -26,26 +26,26 @@
   "languages": [
     {
       "name": "TypeScript",
-      "size": 13334679,
-      "percentage": 47.74,
+      "size": 13442299,
+      "percentage": 47.94,
       "color": "#3178c6"
     },
     {
       "name": "Dart",
       "size": 13120331,
-      "percentage": 46.97,
+      "percentage": 46.79,
       "color": "#00B4AB"
     },
     {
       "name": "C++",
       "size": 348336,
-      "percentage": 1.25,
+      "percentage": 1.24,
       "color": "#f34b7d"
     },
     {
       "name": "C",
       "size": 301086,
-      "percentage": 1.08,
+      "percentage": 1.07,
       "color": "#555555"
     },
     {
